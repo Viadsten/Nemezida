@@ -1071,6 +1071,8 @@ textarea:focus {
           flex: 1;
   padding: 78px 60px;
   margin-bottom: 25px;
+  text-decoration: none;
+  color: #F2E5E5;
 }
 .login_block-tab .tabs-nav__item:before {
   position: absolute;
