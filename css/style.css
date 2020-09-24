@@ -990,7 +990,7 @@ textarea:focus {
 .login {
   position: relative;
 }
-.login:before {
+/*.login:before {
   position: absolute;
   content: '';
   left: 0;
@@ -1010,10 +1010,10 @@ textarea:focus {
   bottom: 0;
   background: url("../images/svg/logo.svg") center center no-repeat;
   z-index: -1;
-}
+}*/
 .login_wrap {
   position: relative;
-  margin-top: 180px;
+  margin-top: 0px;
   margin-bottom: 90px;
 }
 .login_wrap .lang {
@@ -2066,22 +2066,19 @@ textarea:focus {
 }
 
 .section-wrap--log{
-  margin-top: -120px;
-}
-
-.log-header{
-  z-index: 99999;
-  position: relative;
+  margin-top: -250px;
 }
 
 .trust-link{
   color: #fff;
 }
-
+@media screen and (max-width: 991px) {
+  .section-wrap--log{
+    margin-top: -340px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section-wrap--log{
-    margin-top: -40px;
+    margin-top: -100px;
   }
-
-
 }
