@@ -17,6 +17,7 @@
   font-weight: 700;
   font-style: normal;
 }
+
 .shedule_table--mobile{
   display: none;
 }
@@ -209,7 +210,7 @@ textarea:focus {
   top: 0;
   right: 0;
   bottom: 0;
-  background: url("../images/png/header_bg.png") center center no-repeat;
+  background: url("../images/png/header_bg.jpg") center center no-repeat;
   background-size: cover;
   z-index: -2;
 }
@@ -996,7 +997,7 @@ textarea:focus {
   top: 0;
   right: 0;
   bottom: 0;
-  background: url("../images/png/header_bg.png") center center no-repeat;
+  background: url("../images/png/header_bg.jpg") center center no-repeat;
   background-size: cover;
   z-index: -2;
 }
@@ -1388,7 +1389,7 @@ textarea:focus {
 .popup {
   position: relative;
   width: 550px;
-  background: url("../images/png/header_bg.png") center center no-repeat;
+  background: url("../images/png/header_bg.jpg") center center no-repeat;
   background-size: cover;
   border-radius: 20px;
   padding: 60px;
@@ -2059,6 +2060,27 @@ textarea:focus {
     width: 100%;
     margin-top: 30px;
 
+  }
+
+
+}
+
+.section-wrap--log{
+  margin-top: -120px;
+}
+
+.log-header{
+  z-index: 99999;
+  position: relative;
+}
+
+.trust-link{
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .section-wrap--log{
+    margin-top: -40px;
   }
 
 
