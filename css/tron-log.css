@@ -178,3 +178,20 @@
         margin-top: -380px;
     }
 }
+
+@media (max-width: 575px){
+    
+    .login_block-tab .tabs-nav__item {
+        padding: 78px 10px;
+    }
+
+    .login_block-tab .tabs-nav__item {
+        font-size: 18px;
+    }
+    .login_block-form {
+        padding: 20px 10px;
+    }
+}
+
+
+
